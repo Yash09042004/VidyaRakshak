@@ -133,6 +133,61 @@ html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-family:sans-se
   border-radius: 8px;
 }
 
+#howtouse {
+  float: left;
+  overflow: hidden;
+}  
+
+/* Dropdown button */
+#howtouse .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /*Important for vertical align on mobile phones*/
+   margin: 0; /*Important for vertical align on mobile phones*/
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(rgb(102, 179, 197), rgb(130, 93, 167) 47.52%, rgb(187, 101, 113));
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  /* background-image: linear-gradient(rgb(102, 179, 197), rgb(130, 93, 167) 47.52%, rgb(187, 101, 113)); */
+  /* background-image: linear-gradient(white); */
+  background-image: none;
+  /* display:block; */
+  color:white;
+}
+
+.dropdown-content:hover{
+  color:white;
+}
+
+/* Show the dropdown menu on hover */
+#howtouse:hover .dropdown-content {
+  display: block;
+}
+
+
 @keyframes fadeIn {
   to {
       opacity: 1;
