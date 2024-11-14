@@ -1,0 +1,45 @@
+/* Base styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 8px;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .hero-text {
+        font-size: 4rem;
+    }
+    .tutorial-steps .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-text {
+        font-size: 3rem;
+    }
+    .tutorial-steps .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text {
+        font-size: 2rem;
+    }
+    .tutorial-steps .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-image {
+        width: 100%;
+    }
+}
